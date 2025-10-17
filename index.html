@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome :)</h1>
+      <p class="lead">A minimal starter page created for you.</p>
+    </header>
+    <main>
+      <p>
+        This is your new <code>index.html</code>. Edit this file to start
+        building your website.
+      </p>
+      <p>
+        <a
+          class="btn"
+          href="#demo"
+          onclick="document.getElementById('demo').scrollIntoView({behavior:'smooth'})"
+          >Jump to demo</a
+        >
+      </p>
+
+      <section id="demo">
+        <h2>Small demo</h2>
+        <p>
+          Click the button below to show an alert — a tiny interactive example.
+        </p>
+        <p><button onclick="showAlert()">Show alert</button></p>
+      </section>
+
+      <section>
+        <h1>My first html page</h1>
+        <i>hola</i>
+
+        <p>I am a student</p>
+        <p>I love to learn!</p>
+      </section>
+    </main>
+    <footer>
+      <p>Created on 2025-10-17</p>
+    </footer>
+   
+    <script>
+      function showAlert() {
+        alert("Hello from your new index.html!");
+      }
+    </script>
+  </body>
+</html>
