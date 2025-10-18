@@ -1,0 +1,26 @@
+/* styles extracted from index.html */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  margin: 0;
+  padding: 2rem;
+  background: #d9f8297a;
+  color: #111;
+}
+header {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+h1 {
+  margin: 0 0 0.5rem;
+}
+
+#demo {
+  margin-top: 1rem;
+}
+
+nav a {
+  color:rgb(220, 104, 124);
+  padding: 1em;
+}
+h3{color:gray}
